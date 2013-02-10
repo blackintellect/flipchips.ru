@@ -30,8 +30,9 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("#main").click(function () {
-            	document.getElementById("main").style.backgroundColor 
-                = "green";
+            	//document.getElementById("main").style.backgroundColor 
+                //= "green"; return false;
+                $(".button").toggleClass('active');
             });
 
         });
