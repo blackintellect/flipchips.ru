@@ -1,6 +1,5 @@
 ﻿<!DOCTYPE html>
 <head>
-	<!-- Some Changes -->
     <title>Flipchip</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 
@@ -30,12 +29,11 @@
 
     <script type="text/javascript">
         $(document).ready(function () {
-            $("#main").mouseenter(function () {
-                $("#main").fadeIn(1000);
+            $("#main").click(function () {
+            	document.getElementById("main").style.backgroundColor 
+                = "green";
             });
-            $("#main").mouseleave(function () {
-                //$("#main").fadeOut(1000)
-           });
+
         });
     </script>
 
@@ -47,7 +45,11 @@
     </div>
     <div id="middle">
         <div id="menu">
+          <div id="navigation">
             <div id="main" class="button"><p>Main</p></div>
+            <div id="photo" class="button"><p>Photo</p></div>
+            <div id="contacts" class="button"><p>Contacts</p></div>
+          </div>
         </div>
         <div id="content"></div>
     </div>
