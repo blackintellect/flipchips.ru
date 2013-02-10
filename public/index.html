@@ -26,9 +26,19 @@
     <script type="text/javascript">
         $(document).ready(function () {
             $("#main").click(function () {
-            	//document.getElementById("main").style.backgroundColor 
-                //= "green"; return false;
-                $(".button").toggleClass('active');
+                document.getElementById("main").className = "button active";
+                document.getElementById("photo").className = "button";
+                document.getElementById("contacts").className = "button";
+            });
+            $("#photo").click(function () {
+            	document.getElementById("photo").className = "button active";
+                document.getElementById("main").className = "button";
+                document.getElementById("contacts").className = "button";
+            });
+            $("#contacts").click(function () {
+            	document.getElementById("contacts").className = "button active";
+                document.getElementById("main").className = "button";
+                document.getElementById("photo").className = "button";
             });
         });
     </script>
@@ -42,9 +52,9 @@
     <div id="middle">
         <div id="menu">
           <div id="navigation">
-            <div id="main" class="button"><p>Main</p></div>
-            <div id="photo" class="button"><p>Photo</p></div>
-            <div id="contacts" class="button"><p>Contacts</p></div>
+            <div id="main" class="button active"><p>Главная</p></div>
+            <div id="photo" class="button"><p>Фото</p></div>
+            <div id="contacts" class="button"><p>Контакты</p></div>
           </div>
         </div>
         <div id="content"></div>

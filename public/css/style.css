@@ -32,9 +32,8 @@
 }
 
 #navigation{
-	position: relative;
 	margin: auto;
-	width:188px;
+	width:220px;
 	height:35px;
 }
 
@@ -66,5 +65,21 @@
     transition: all 0.15s ease-out;
 }
 
+#main.button.active{
+	background-color: green;
+	height: 40px;
+	box-shadow: 0 0 10px 2px #222;
+}
 
+#photo.button.active{
+	background-color: green;
+	height: 40px;
+	box-shadow: 0 0 10px 2px #222;
+}
+
+#contacts.button.active{
+	background-color: green;
+	height: 40px;
+	box-shadow: 0 0 10px 2px #222;
+}
     
