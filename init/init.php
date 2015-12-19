@@ -4,6 +4,7 @@
 //ololo
 //oooo
 // 000asd
+
 /**
  * Array of constants
  */
