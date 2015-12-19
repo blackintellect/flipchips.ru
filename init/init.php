@@ -1,6 +1,7 @@
 <?php
 
 //sdfsdf
+//ololo
 
 /**
  * Array of constants
